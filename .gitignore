@@ -1,0 +1,13 @@
+## R
+.quarto
+.Rproj.user
+.Rproj
+.Rhistory
+.RData
+.Ruserdata
+
+## Config
+.vscode
+
+## Mac OS
+.DS_Store
