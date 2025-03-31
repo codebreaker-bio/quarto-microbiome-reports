@@ -1,0 +1,35 @@
+meta:
+  name: Codebreaker Biosciences
+  link: https://codebreaker.bio/
+
+
+color: ## TODO modify color palette
+  palette:
+    dark-grey: "#222222"
+    blue: "#ddeaf1"
+  background: blue
+  foreground: dark-grey
+  primary: black
+
+
+logo: ## TODO: modify logo or logos 
+  small: logo-small.png
+  medium: logo.png
+  large: logo-large.png
+
+typography: ## TODO modify typography and all other parameters
+  fonts:
+    - family: Jura
+      source: google
+    - family: Space Mono
+      source: google
+  base: Jura
+  headings: Jura
+  link:
+    decoration: underline
+  monospace: Space Mono
+  monospace-inline:
+    color: "#222222"
+    background-color: "#ddeaf1" # or use a named color from `color`
+  monospace-block: 
+    background-color: "#eef4f8"

@@ -1,0 +1,13 @@
+project:
+  title: "quarto-microbiome-reports"
+
+editor: visual
+
+format:  ## TODO modify all these parameters
+  html:
+    include-in-header: formats/html/custom_header.html
+    css: formats/html/custom.css
+  pdf:
+    documentclass: article
+
+
