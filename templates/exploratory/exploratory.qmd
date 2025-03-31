@@ -1,0 +1,26 @@
+---
+title: "Exploratory Data Analysis"
+subtitle: "{{< param data.title >}}"
+author: "{{< param author.name >}}"
+date: last-modified
+date-format: "MMMM D, YYYY"
+params:
+  data_path: "data/sample.csv"
+  data_title: "Sample Dataset"
+format: 
+  html:
+    !include ../formats/html/format-config.yml
+  pdf:
+    !include ../formats/pdf/format-config.yml
+  dashboard:
+    !include ../formats/dashboard/format-config.yml
+  scrollytelling:
+    !include ../formats/scrollytelling/format-config.yml
+execute:
+  echo: !expr params$show_code
+  warning: true
+  message: false
+  error: false
+---
+
+## TODO complete yml with parameters and others configuration
